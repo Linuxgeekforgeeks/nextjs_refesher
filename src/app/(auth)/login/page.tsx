@@ -1,9 +1,9 @@
 import Image from "next/image"
 
-
+import styles from "./login.module.css"
 function LoginPage() {
   return (
-    <div>
+    <div className={styles.login}>
       This is the Login Page.
       <div>
 
